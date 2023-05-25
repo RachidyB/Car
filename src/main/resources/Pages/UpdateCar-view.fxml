@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="537.0" prefWidth="678.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.emsi.Controllers.ManipiuationController">
+    <children>
+        <Label text="Updating Car form" />
+        <TextField  alignment="CENTER" prefHeight="25.0" prefWidth="315.0" promptText="Matricule" fx:id="matricule" />
+        <TextField alignment="CENTER" promptText="Title" fx:id="marque" />
+        <TextField alignment="CENTER" prefHeight="25.0" prefWidth="115.0" promptText="Couleur" fx:id="couleur" />
+        <TextField alignment="CENTER" promptText="Prix" fx:id="prix" />
+        <TextField alignment="CENTER" prefHeight="25.0" prefWidth="276.0" promptText="Kilometrage" fx:id="kilometrage" />
+        <TextField alignment="CENTER" layoutX="10.0" layoutY="249.0" prefHeight="25.0" prefWidth="276.0" promptText="Vitesse" fx:id="vitesse" />
+        <Button mnemonicParsing="false" text="Update Car" onAction="#onUpdateButtonClick" />
+    </children>
+</VBox>

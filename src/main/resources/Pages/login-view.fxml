@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.emsi.Controllers.authenticationController">
+   <children>
+      <Label layoutX="270.0" layoutY="77.0" text="Login page" />
+      <TextField fx:id="Lemail" layoutX="220.0" layoutY="127.0" promptText="Emsail" />
+      <PasswordField fx:id="Lpassword" layoutX="220.0" layoutY="188.0" promptText="Password" />
+      <Button layoutX="270.0" layoutY="247.0" mnemonicParsing="false" onAction="#onLoginButtonClick" text="Log in" />
+      <Button layoutX="473.0" layoutY="331.0" mnemonicParsing="false" onAction="#redirecttOsignup" text="Inscription" />
+      <Label fx:id="lb" layoutX="280.0" layoutY="314.0" textFill="#f50a0a" />
+   </children>
+</AnchorPane>

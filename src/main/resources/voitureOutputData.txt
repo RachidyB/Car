@@ -1,0 +1,3 @@
+Voiture{marque = ferrari, matricule=6A1399, couleur='noir, prix=180000.0, kilometrage=180000.0, vitesse=180000.0}
+Voiture{marque = lambo, matricule=7B1112, couleur='rouge, prix=230000.0, kilometrage=230000.0, vitesse=230000.0}
+Voiture{marque = bently, matricule=932H33, couleur='gray, prix=130000.0, kilometrage=130000.0, vitesse=130000.0}

@@ -1,0 +1,27 @@
+{"voitureList":[
+{
+    "matricule":"1A3432"
+    "marque": "bmw",
+    "couleur": "noir",
+    "prix":12222
+    "kilometrage": 2000,
+    "vitesse": 220,
+},
+{
+    "matricule":"1A3432"
+    "marque": "bmw",
+    "couleur": "noir",
+    "prix":12222
+    "kilometrage": 2000,
+    "vitesse": 220,
+},
+{
+    "matricule":"1A3432"
+    "marque": "bmw",
+    "couleur": "noir",
+    "prix":12222
+    "kilometrage": 2000,
+    "vitesse": 220,
+}
+]
+}

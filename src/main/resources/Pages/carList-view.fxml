@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="537.0" prefWidth="678.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.emsi.Controllers.InitializeController">
+   <children>
+      <Label text="Car List">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="26.0" prefWidth="149.0" text="Add Car">
+         <VBox.margin>
+            <Insets right="400.0" />
+         </VBox.margin></Button>
+      <Button layoutX="75.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="26.0" prefWidth="149.0" text="Update Care">
+         <VBox.margin>
+            <Insets left="400.0" />
+         </VBox.margin></Button>
+      <Button mnemonicParsing="false" text="Delete car"  onAction="#handleButtonDelClick"/>
+      <TableView fx:id="carTableView" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="matriculeC" prefWidth="75.0" text="Matricule" />
+          <TableColumn fx:id="marqueC" prefWidth="75.0" text="Marque" />
+            <TableColumn fx:id="couleurC" prefWidth="75.0" text="Couleur" />
+            <TableColumn fx:id="prixC" prefWidth="75.0" text="Prix" />
+            <TableColumn fx:id="kilometrageC" prefWidth="75.0" text="Kilometrage" />
+            <TableColumn fx:id="vitesseC" prefWidth="75.0" text="Vitesse" />
+        </columns>
+      </TableView>
+      <Button mnemonicParsing="false" onAction="#excelToDb" text="Import" />
+      <Button layoutX="323.0" layoutY="400.0" mnemonicParsing="false" onAction="#dbToExcel" text="export" />
+   </children>
+</VBox>

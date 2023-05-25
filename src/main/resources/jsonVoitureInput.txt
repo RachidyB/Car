@@ -1,0 +1,9 @@
+{
+    "Matricule": "A4334",
+    "Marque": "BMW",
+    "Voiture List": [
+        "Voiture: bmw",
+        "Voiture: mercedes",
+        "Voiture: audi"
+    ]
+}
